@@ -6,12 +6,14 @@
     position: absolute;
     padding: 10px;
     right: 0px;
-    left: 400px;
+    left: 500px;
     width: 250px;
     border: inset;
     border-color: beige;
     border-collapse: collapse;
     border-width: 1.5px;
+    border-right:inset;
+    border-bottom:inset;
     border-radius: 10px;
     margin: 20px;
 }

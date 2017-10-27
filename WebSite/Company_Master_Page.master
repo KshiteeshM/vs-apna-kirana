@@ -9,12 +9,14 @@
     </asp:ContentPlaceHolder>    
     <asp:ContentPlaceHolder ID="Stylesheets" runat="server">
         <link href="App_StyleSheets/Company_Master_Stylesheet.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
     <div class ="header">
-        <asp:Label ID ="Company_Title_Label" runat ="server" CssClass ="Company_Title_Label" ></asp:Label>
+        <!--<asp:Label ID ="Company_Title_Label" runat ="server" CssClass ="Company_Title_Label" ></asp:Label>-->
+        <asp:Image ID ="Company_Title_Icon" runat="server" CssClass ="Company_Title_Icon" ImageUrl ="~/App_Images/g3727.png"/>
     </div>
         <br /> <br />
     <div class ="pagecontent">

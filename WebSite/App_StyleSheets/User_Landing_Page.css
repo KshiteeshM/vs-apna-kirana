@@ -1,0 +1,7 @@
+﻿body {
+}
+.GridViewCells td, .GridViewHeader td {
+    border-color: #DAC9A9;
+    border-style: solid;
+    background-color: #DAC9A9;
+}
