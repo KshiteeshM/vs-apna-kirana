@@ -12,23 +12,29 @@ body {
 .header {
     height: 85px;
     position: fixed;
-    background-color: #ff5252;
+    background-color: #455a64;
     box-shadow: 5px 5px 10px #e0e0e0;
     top: 0px;
     left: 0px;
     right: 0px;
     width: 100%;
     text-align:center;
-    vertical-align:middle;
-    line-height:75px;
-    border-radius:5px;
+    vertical-align: middle;
+    line-height: 75px;
+    border-radius: 5px;
 }
 .Company_Title_Label {
-    font-family: URW Chancery L, cursive;
+    font-family: Lato,URW Chancery L, cursive;
     font-size: 45px;
-    font-weight:100;
-    margin-right:15px;
+    font-weight: 100;
+    
     color: #ffffff;
+}
+.Company_Title_Icon
+{
+    margin-left:0px;
+    width:200px;
+    height:75px;
 }
 .pagecontent{
     position:absolute;
@@ -36,7 +42,7 @@ body {
     right:0px;
     align-content:center;
     padding:20px;
-    left:150px;
+    left:0px;
     top:100px;
     bottom:250px;
     z-index:-1;

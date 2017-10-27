@@ -1,0 +1,13 @@
+﻿body {
+    position:relative;
+    text-align:center;
+    vertical-align:central;
+
+}
+.loginlabel{
+    position:absolute;
+    left:400px;
+    font-family:Lato;
+    color:white;
+    
+}
